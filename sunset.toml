@@ -130,12 +130,7 @@ warning = "fire"
 info    = "pink"
 hint    = "sky"
 
-"diagnostic.error"   = { fg = "attn", underline.style = "line" }
-"diagnostic.warning" = { fg = "fire", underline.style = "line" }
-"diagnostic.info"    = { fg = "pink", underline.style = "line" }
-"diagnostic.hint"    = { fg = "sky",  underline.style = "line" }
-"diagnostic.unnecessary" = { modifiers = ["dim"] }
-"diagnostic.deprecated"  = { modifiers = ["crossed_out"] }
+diagnostic = { underline.style = "line" }
 
 [palette]
 # Reddish
