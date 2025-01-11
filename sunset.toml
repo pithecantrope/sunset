@@ -4,21 +4,20 @@
 
 # Syntax highlighting
 # ----------------------------------------------------------------
-attribute = "rose"
+attribute = "mud"
 
-type = "rose"
-"type.builtin" = { fg = "rose", modifiers = ["italic"] }
+type = "mud"
+"type.builtin" = { fg = "mud", modifiers = ["italic"] }
 
 constructor = "wood"
 
 constant = "fire"
 "constant.builtin"   = { fg = "fire", modifiers = ["italic"] }
 "constant.character" = "wood"
-"constant.character.escape" = "pink"
 "constant.numeric"   = "wood"
 
 string = "grass"
-"string.regexp"  = "pink"
+"string.regexp"  = "mud"
 "string.special" = "rose"
 "string.special.symbol" = "fire"
 
@@ -26,9 +25,9 @@ comment = { fg = "cmnt", modifiers = ["italic"] }
 "comment.block.documentation" = "grass"
 
 variable = "text"
-"variable.builtin" = { fg = "sky", modifiers = ["italic"] }
-# TODO: variable.parameter
-"variable.other.member" = "mud"
+"variable.builtin"   = { fg = "sky", modifiers = ["italic"] }
+"variable.parameter" = "rose"
+"variable.other.member" = "pink"
 
 label = "sky"
 
@@ -44,23 +43,23 @@ operator = "wine"
 
 function = "peach"
 "function.builtin" = { fg = "peach", modifiers = ["italic"] }
-"function.macro"   = "pink"
+"function.macro"   = "sky"
 
 tag = "peach"
 
-namespace = { fg = "pink", modifiers = ["italic"] }
+namespace = "ocean"
 
-special = "sky"
+special = "ocean"
 
 # Editor interface
 # ----------------------------------------------------------------
 "markup.heading.marker" = "sun"
-"markup.heading.1" = "attn"
+"markup.heading.1" = "ocean"
 "markup.heading.2" = "fire"
-"markup.heading.3" = "rose"
-"markup.heading.4" = "peach"
-"markup.heading.5" = "wine"
-"markup.heading.6" = "grass"
+"markup.heading.3" = "grass"
+"markup.heading.4" = "rose"
+"markup.heading.5" = "peach"
+"markup.heading.6" = "wine"
 
 "markup.list" = "wood"
 
@@ -69,12 +68,12 @@ special = "sky"
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 
 "markup.link.url"   = { fg = "sky", underline.style = "line" }
-"markup.link.label" = { fg = "sky", modifiers = ["italic"] }
+"markup.link.label" = "sky"
 "markup.link.text"  = "mud"
 
-"markup.quote" = "grass"
+"markup.quote" = "mud"
 
-"markup.raw"   = "pink"
+"markup.raw" = "pink"
 
 "diff.plus"  = "grass"
 "diff.minus" = "attn"
@@ -129,8 +128,8 @@ special = "sky"
 
 error   = "attn"
 warning = "fire"
-info    = "pink"
-hint    = "sky"
+info    = "sky"
+hint    = "mud"
 
 diagnostic = { underline.style = "line" }
 
@@ -144,12 +143,13 @@ wood  = "#997755"
 
 # Greenish
 grass = "#66CC33"
-mud   = "#BBCC77"
+mud   = "#AACC77"
 sun   = "#EEEE11"
 
 # Bluish
-sky  = "#77AAAA"
-wine = "#775599"
+ocean = "#1177EE"
+sky   = "#77AAAA"
+wine  = "#775599"
 
 # Ui
 base  = "#111111"
