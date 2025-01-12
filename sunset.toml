@@ -87,7 +87,7 @@ special = "ocean"
 "ui.cursor.primary.normal" = { fg = "base", bg = "text" }
 "ui.cursor.primary.insert" = { fg = "base", bg = "grass" }
 "ui.cursor.primary.select" = { fg = "base", bg = "sky" }
-"ui.cursor.match"   = { fg = "attn", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "attn", modifiers = ["bold"] }
 
 # TODO: ui.debug
 
@@ -105,6 +105,8 @@ special = "ocean"
 
 "ui.popup" = { fg = "text", bg = "base" }
 "ui.popup.info" = { fg = "text", bg = "block" }
+
+"ui.picker.header" = { underline.style = "line" }
 
 "ui.window" = { fg = "block", modifiers = ["bold"] }
 
