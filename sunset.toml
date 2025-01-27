@@ -47,19 +47,19 @@ function = "peach"
 
 tag = "peach"
 
-namespace = "ocean"
+namespace = { fg = "text", modifiers = ["italic"] }
 
-special = "ocean"
+special = "wine"
 
 # Editor interface
 # ----------------------------------------------------------------
 "markup.heading.marker" = "sun"
-"markup.heading.1" = "ocean"
-"markup.heading.2" = "fire"
-"markup.heading.3" = "grass"
-"markup.heading.4" = "rose"
-"markup.heading.5" = "peach"
-"markup.heading.6" = "wine"
+"markup.heading.1" = "fire"
+"markup.heading.2" = "wine"
+"markup.heading.3" = "rose"
+"markup.heading.4" = "peach"
+"markup.heading.5" = "grass"
+"markup.heading.6" = "wood"
 
 "markup.list" = "wood"
 
@@ -101,7 +101,7 @@ special = "ocean"
 "ui.statusline.select"   = { fg = "block", bg = "sky",   modifiers = ["bold"] }
 
 "ui.bufferline" = { fg = "cmnt", bg = "block" }
-"ui.bufferline.active" = "sun"
+"ui.bufferline.active" = "fire"
 
 "ui.popup" = { fg = "text", bg = "base" }
 "ui.popup.info" = { fg = "text", bg = "block" }
@@ -151,7 +151,6 @@ mud   = "#AACC77"
 sun   = "#EEEE11"
 
 # Bluish
-ocean = "#1177EE"
 sky   = "#77AAAA"
 wine  = "#775599"
 
