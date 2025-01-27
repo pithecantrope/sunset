@@ -1,10 +1,8 @@
-# Sunset
+![C](example.png)
 
-A cozy dark [helix](https://helix-editor.com/) theme designed to make your coding sessions feel warm and inviting.
+# Usage
 
-## Usage
-
-Add Sunset to your Helix themes:
+Add sunset to your [helix](https://helix-editor.com/) themes:
 
 ```sh
 mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/helix/themes"
@@ -17,10 +15,6 @@ Restart Helix and apply the theme:
 :theme sunset
 ```
 
-## Showcase
-
-![C](example.png)
-
-## LICENSE
+# LICENSE
 
 This project is distributed under the MIT license.
