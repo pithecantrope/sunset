@@ -19,15 +19,7 @@ Restart Helix and apply the theme:
 
 ## Showcase
 
-![Toml](images/rust.png)
-
-![Python](images/javascript.png)
-
-![Rust](images/cpp.png)
-
-![C](images/python.png)
-
-![Html](images/html.png)
+![C](example.png)
 
 ## LICENSE
 
